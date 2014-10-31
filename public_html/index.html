@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Contact / feedback form template for Twitter bootstrap
+(c) Jan Drda <jdrda@outlook.com>
+-->
+<html>
+    <head>
+        <title>Contact / Feedback Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Twitter Bootstrap CSS - needed for modal elements -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">
+        
+        <!-- Font Awesome - prefered than default glyphicons from Bootstrap -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+        
+        <!-- Contact / Feedback Form CSS -->
+        <link rel="stylesheet" href="css/contact-feedback-form.css">
+    </head>
+    <body>
+        <div>Sample content</div>
+        
+        
+        <!-- Our button for Contact or Feedback - it is safer to have it near the body end -->
+        <button type="button" class="btn btn-primary btn-lg clearfix btn-cff" data-toggle="modal" data-target="#myModal">Contact / Feedback</button>
+        
+        <!-- Modal window as shown at Twitter bootstrap-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- jQuery - needed for modal elements of Bootstrap -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Twitter Bootstrap JavaScript - needed for modal elements -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
+    </body>
+</html>
