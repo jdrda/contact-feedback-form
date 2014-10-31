@@ -1,5 +1,5 @@
-contact-feedback-form
-=====================
+Contact / Feedback Form
+=======================
 
 Flexible contact / feedback form with floating buttons and Twitter Bootstrap modals.
 
